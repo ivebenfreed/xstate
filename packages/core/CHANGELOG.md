@@ -1,5 +1,11 @@
 # xstate
 
+## 6.0.0-alpha.68
+
+### Patch Changes
+
+- 37b3c73: The persisted snapshot JSON schema now accepts unknown fields on the envelope, on `children` entries and on `timers` entries. Readers should ignore fields they don't recognize; future 6.x releases may add optional fields.
+
 ## 6.0.0-alpha.67
 
 ### Major Changes
